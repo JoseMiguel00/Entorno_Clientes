@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">	
+	</head>
+		<body>
+			
+		<script>
+			var nota,nota1,nota2,final,nfinal,clave,clave2;
+			clave=prompt("ingrese la clave: ");
+			clave2=prompt("Repita la clave: ");
+
+			if(clave2==clave){
+					alert("La clave coincide");
+						 }else{
+					alert("La clave no coinciden");
+						 };
+
+			nota=prompt("ingrese la 1 nota: ");
+			nota1=prompt("ingrese la 2 nota: ");
+			nota2=prompt("ingrese la 3 nota: ");
+
+			final=nota+nota1+nota2;
+			nfinal=final/3;
+
+			if(nfinal<= 7){
+					document.write("Promocionado");
+						 }else{
+					document.write("No promociona");
+						 };
+			
+
+
+		</script>
+	</body>	
+</html>	
